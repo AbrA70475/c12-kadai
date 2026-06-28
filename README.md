@@ -33,7 +33,7 @@ img_flip.save(output_image)
 - コマンドラインフォーマット
 
   ```python
-  python3 flip.py<input_image_path><output_image_path>
+  python3 flip.py <input_image_path> <output_image_path>
   ```
 
 - 利用例
