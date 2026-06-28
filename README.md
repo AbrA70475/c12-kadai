@@ -39,7 +39,7 @@ img_flip.save(output_image)
 - 利用例
 
   ```bash
-  python3 flip.py input.jpg putput.jpg
+  python3 flip.py input.jpg output.jpg
   ```
 
 **3.2.出力結果**
