@@ -1,14 +1,14 @@
-# 左右反転画像 生成プログラム flip.py
+# 左右反転画像  生成プログラム  flip.py
 
-## 1.概要
+## 1. 概要
 
-引数で指定した画像の左右反転画像を作成するpython3 で動作するプログラムです。
+引数で指定した画像の左右反転画像を作成する python3 で動作するプログラムです。
 
-## 2.ソースコード
+## 2. ソースコード
 
 ```python
-# このプログラムはpython3用です。
-# あらかじめpip install pillowでpillowをインストールしておきます。
+# このプログラムは python3 用です。
+# あらかじめ pip install pillow で pillow をインストールしておきます。
 from PIL import Image
 import sys
 
@@ -26,7 +26,7 @@ img_flip = transpose(Image.FLIP_LEEF_RIGHT)
 img_flip.save(output_image)
 ```
 
-## 3.使い方
+## 3. 使い方
 
 **3.1.実行例**
 
